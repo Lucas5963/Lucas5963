@@ -179,3 +179,81 @@ section {
       padding: 1rem;
       font-size: 0.9rem;
     }
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .botao-menu {
+        left: 15px;
+        top: 15px;
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+
+    .botao-menu.ativo {
+        left: 240px;
+    }
+
+    .menu-lateral {
+        width: 240px;
+    }
+
+    .conteudo {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .conteudo.ativo {
+        margin-left: 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .menu-lateral ul li a {
+        font-size: 16px;
+    }
+
+    .menu-lateral ul li a i {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projetos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projeto {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .botao-menu {
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+
+    .botao-menu.ativo {
+        left: 220px;
+    }
+
+    .menu-lateral {
+        width: 220px;
+    }
+}
+
